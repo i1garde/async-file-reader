@@ -1,0 +1,15 @@
+{
+  "name": "async-file-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run callback-ver": "node reading-file-with-callbacks.js",
+    "run promise-ver": "node reading-file-with-promises.js",
+    "run async-await-ver": "node reading-file-with-async-await.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
