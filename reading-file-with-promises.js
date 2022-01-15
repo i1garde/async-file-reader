@@ -5,6 +5,7 @@ const readFiles = (path) => new Promise(function (res, rej) {
 })
 
 readFiles("text.txt")
+    .finally(() => console.log("Print text in finally block."))
     .then(
         result => console.log(result.toString()),
         error => console.log("Can't read file :(")

@@ -1,1 +1,1 @@
-Some text in the file.
+Some text in file
